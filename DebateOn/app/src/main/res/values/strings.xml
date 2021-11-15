@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">DebateOn</string>
     <string name="main_title">DEBATE ON\n</string>
+    <string name="todo2" />
+    <string name="todo" />
+    <string name="names">Creadores: Ximena, Bernardo, Ivan, Oscar, Carlo</string>
+    <string name="inicio">Inicio</string>
+    <string name="debateon1">DebateON!</string>
+    <string name="debateon2">DebateON!</string>
+    <string name="debateon3">DebateON!</string>
+    <string name="debateon4">DebateON!</string>
+    <string name="debateon5">DebateON!</string>
+    <string name="debateon">DebateON!</string>
 
 </resources>
