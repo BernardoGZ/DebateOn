@@ -12,23 +12,27 @@ public class caso1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.caso1_ted_title);
 
-        findViewById(R.id.btn_caso1_comenzar).setOnKeyListener(new View.OnClickListener(){
+        Control_Info control_info = new Control_Info();
+
+        findViewById(R.id.btn_caso1_comenzar).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 setContentView(R.layout.test_teachout);
+                findViewById(R.id.btn_favor_teach).setOnClickListener(new View.OnClickListener(){
+                    @Override
+                    public void onClick(View view) {
+                        setContentView(R.layout.test_juicio);
+                    }
+                });
+                findViewById(R.id.btn_contra_teach).setOnClickListener(new View.OnClickListener(){
+                    @Override
+                    public void onClick(View view) {
+                        setContentView(R.layout.test_juicio);
+                        control_info.respuesta_usuario = getString(R.string.respuesta_ted_contra_0_0) ;
+                    }
+                });
             }
         });
-        findViewById(R.id.btn_favor_teach).setOnKeyListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.test_juicio);
-            }
-        });
-        findViewById(R.id.btn_contra_teach).setOnKeyListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                setContentView(R.layout.test_juicio);
-            }
-        });
+
     }
 }
