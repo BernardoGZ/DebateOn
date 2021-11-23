@@ -3,6 +3,8 @@ package com.example.debateon;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +13,9 @@ public class caso1_juicio extends AppCompatActivity {
 
     Control_Info control_info;
     TextView textViewCaption;
+    TextView textViewRefuta;
+    ImageView msgBox2;
+    Button btnContinuar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +25,10 @@ public class caso1_juicio extends AppCompatActivity {
         control_info = caso1_teach.getControl();
 
         textViewCaption = findViewById(R.id.txt_juicio_caption);
+        textViewRefuta = findViewById(R.id.txt_juicio_refuta);
+        msgBox2 = findViewById(R.id.msgBox2);
+        btnContinuar = findViewById(R.id.btn_caso1_continuar);
+
         changeText();
 
         //Juicio a favor
@@ -41,6 +50,16 @@ public class caso1_juicio extends AppCompatActivity {
                 control_info.decision_id += '0';
                 control_info.contador_niveles++;
                 changeText();
+            }
+        });
+
+        //Refuta
+        findViewById(R.id.btn_caso1_continuar).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                msgBox2.setVisibility(View.VISIBLE);
+                textViewRefuta.setVisibility(View.VISIBLE);
+                btnContinuar.setVisibility(View.INVISIBLE);
             }
         });
     }
