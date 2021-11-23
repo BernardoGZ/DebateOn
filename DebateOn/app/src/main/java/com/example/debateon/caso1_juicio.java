@@ -15,8 +15,8 @@ public class caso1_juicio extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.test_juicio);
-        Bundle bundle = getIntent().getExtras();
+        setContentView(R.layout.caso_juicio);
+
         control_info = caso1_teach.getControl();
 
         textViewCaption = findViewById(R.id.txt_juicio_caption);

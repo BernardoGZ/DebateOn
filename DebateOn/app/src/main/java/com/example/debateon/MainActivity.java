@@ -2,6 +2,8 @@ package com.example.debateon;
 
 import android.os.Bundle;
 import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,15 +24,6 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
-
-//        findViewById(R.id.btn_caso1).setOnClickListener(new View.OnClickListener(){
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(MainActivity.this, caso1.class));
-//            }
-//
-//        });
-
     }
 
     }

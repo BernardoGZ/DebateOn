@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/txt_juicio_caption"
+        android:id="@+id/txt_juicio_caption1"
         android:layout_width="281dp"
         android:layout_height="132dp"
         android:layout_marginStart="65dp"
