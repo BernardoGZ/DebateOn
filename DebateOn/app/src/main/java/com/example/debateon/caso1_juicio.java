@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.content.Intent;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +16,7 @@ public class caso1_juicio extends AppCompatActivity {
     TextView textViewCaption;
     TextView textViewRefuta;
     TextView postura;
+    TextView puntaje;
     ImageView msgBox2;
     Button btnContinuar;
     Button btnFavor;
@@ -96,11 +98,47 @@ public class caso1_juicio extends AppCompatActivity {
         findViewById(R.id.btn_finalizar).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
+                setContentView(R.layout.caso1_fin);
+                puntaje = findViewById(R.id.textViewPuntaje);
+                puntaje.setText(getPuntaje().toString());
+                //Salir
+//                findViewById(R.id.btn_fin_salir).setOnClickListener(new View.OnClickListener(){
+//                    @Override
+//                    public void onClick(View view) {
+//                        finishAndRemoveTask();
+//                    }
+//                });
+
+                //Volver a jugar
+//                findViewById(R.id.btn_fin_salir2).setOnClickListener(new View.OnClickListener(){
+//                    @Override
+//                    public void onClick(View view) {
+//                        Intent intent = new Intent(caso1_juicio, MainActivity.class);
+//                        this.startActivity(intent);
+//                        this.finishAffinity();
+//                    }
+//                });
 
             }
         });
     }
-
+    private String getPuntaje(){
+        if (control_info.decision_id.equals("00")){
+            return "3/3";
+        }
+        else if (control_info.decision_id.equals("01")){
+            return "2/3";
+        }
+        else if (control_info.decision_id.equals("10")){
+            return "3/3";
+        }
+        else if (control_info.decision_id.equals("11")){
+            return "1/3";
+        }
+        else{
+            return "0/3";
+        }
+    }
     private void changeText(){
         if (control_info.postura_inicial == 0)
         {

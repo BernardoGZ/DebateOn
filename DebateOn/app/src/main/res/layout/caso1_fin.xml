@@ -20,16 +20,31 @@
 
     <Button
         android:id="@+id/btn_fin_salir"
-        android:layout_width="294dp"
-        android:layout_height="88dp"
-        android:layout_marginBottom="48dp"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="56dp"
         android:fontFamily="@font/space_mono"
-        android:text="Comenzar"
-        android:textSize="34sp"
+        android:text="Salir"
+        android:textSize="14sp"
         app:backgroundTint="#ED2E38"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.828"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_fin_salir2"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="56dp"
+        android:fontFamily="@font/space_mono"
+        android:text="Volver a jugar"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -38,7 +53,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:fontFamily="@font/abel"
-        android:text="Contexto"
+        android:text="Jueces"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -69,11 +84,11 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="324dp"
-        android:layout_height="316dp"
+        android:layout_width="326dp"
+        android:layout_height="149dp"
         android:background="#59000000"
         android:fontFamily="@font/abel"
-        android:text="Ted quiere hacer valido su matrimonio. Por lo que necesita demostrar que tiene derechos humanos, asi que debe confirmar que es una persona y no un objeto"
+        android:text="@string/fin"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="30sp"
@@ -83,6 +98,24 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.53" />
+        app:layout_constraintVertical_bias="0.381" />
+
+    <TextView
+        android:id="@+id/textViewPuntaje"
+        android:layout_width="326dp"
+        android:layout_height="50dp"
+        android:background="#59000000"
+        android:fontFamily="@font/abel"
+        android:text="3/3"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

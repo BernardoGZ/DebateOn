@@ -2,14 +2,10 @@ package com.example.debateon;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import org.w3c.dom.Text;
 
 public class caso1_teach extends AppCompatActivity {
 
@@ -27,7 +23,7 @@ public class caso1_teach extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setContentView(R.layout.caso1_contexto);
-                findViewById(R.id.btn_context_comenzar).setOnClickListener(new View.OnClickListener(){
+                findViewById(R.id.btn_fin_salir).setOnClickListener(new View.OnClickListener(){
                        @Override
                        public void onClick(View view) {
                            setContentView(R.layout.caso_teachout);
