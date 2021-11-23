@@ -73,6 +73,7 @@
         android:fontFamily="cursive"
         android:text="A favor"
         android:textSize="24sp"
+        android:visibility="invisible"
         app:backgroundTint="#F7D917"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -84,7 +85,22 @@
         android:fontFamily="cursive"
         android:text="En contra"
         android:textSize="24sp"
+        android:visibility="invisible"
         app:backgroundTint="#1905A0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_finalizar"
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="28dp"
+        android:fontFamily="@font/abel"
+        android:text="Finalizar"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:backgroundTint="@color/design_default_color_error"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -92,10 +108,12 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:enabled="true"
         android:fontFamily="cursive"
         android:text="Postura"
         android:textColor="#FFFFFF"
         android:textSize="35sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/btn_contra_juicio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
