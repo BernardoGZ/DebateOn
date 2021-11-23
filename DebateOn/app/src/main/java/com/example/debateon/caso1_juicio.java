@@ -102,22 +102,22 @@ public class caso1_juicio extends AppCompatActivity {
                 puntaje = findViewById(R.id.textViewPuntaje);
                 puntaje.setText(getPuntaje().toString());
                 //Salir
-//                findViewById(R.id.btn_fin_salir).setOnClickListener(new View.OnClickListener(){
-//                    @Override
-//                    public void onClick(View view) {
-//                        finishAndRemoveTask();
-//                    }
-//                });
+                findViewById(R.id.btn_fin_salir).setOnClickListener(new View.OnClickListener(){
+                    @Override
+                    public void onClick(View view) {
+                        System.exit(0);
+                    }
+                });
 
                 //Volver a jugar
-//                findViewById(R.id.btn_fin_salir2).setOnClickListener(new View.OnClickListener(){
-//                    @Override
-//                    public void onClick(View view) {
-//                        Intent intent = new Intent(caso1_juicio, MainActivity.class);
-//                        this.startActivity(intent);
-//                        this.finishAffinity();
-//                    }
-//                });
+                findViewById(R.id.btn_fin_salir2).setOnClickListener(new View.OnClickListener(){
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(caso1_juicio.this, MainActivity.class);
+                        startActivity(intent);
+                        finishAffinity();
+                    }
+                });
 
             }
         });
