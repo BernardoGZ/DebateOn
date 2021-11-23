@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/btn_comenzar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="154dp"
+        android:layout_height="54dp"
         android:layout_marginStart="277dp"
         android:layout_marginEnd="17dp"
         android:layout_marginBottom="37dp"
