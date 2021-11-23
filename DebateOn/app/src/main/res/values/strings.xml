@@ -1,20 +1,20 @@
 <resources>
     <string name="app_name">DebateOn</string>
     <string name="main_title">DEBATE ON\n</string>
-    <string name="respuesta_ted_favor_0_0">Ted es un objeto ya que se compro, en una tienda y fue fabricado por una marca reconocida</string>
-    <string name="respuesta_ted_favor_1_0">Ted fue comprado en una tienda, tuvo un precio y fue fabricado en una valga la redundancia, una fabrica por lo que no es un ser, es un objeto.</string>
-    <string name="respuesta_ted_favor_1_1">Tiene puntos que lo podrian llegar a categorizar como un ser humano, pero no lo es del todo por lo que no puede considerarse como uno.</string>
-    <string name="respuesta_ted_favor_2_0">No puedes ir a una tienda y fabricar a un humano, los humanos tienen derechos, los animales tambien, ted es un objeto por lo que no los tiene</string>
-    <string name="respuesta_ted_favor_2_1">El darle el titulo de humano considero que es inadecuado y fuera de la realidad.</string>
-    <string name="respuesta_ted_favor_2_2">El pagar impuestos es porque compra cosas que las tiene, no por eso puedes determinar que es un humano o darle los mismos derechos que a un humano.</string>
-    <string name="respuesta_ted_favor_2_3">El ser humano es un proceso, no creo que sea una optativa por lo que ted no merece que su matrimonio sea valido.</string>
-    <string name="respuesta_ted_contra_0_0">Ted es una persona ya que cuenta con, sentimientos y conocimiento de su propia existencia </string>
-    <string name="respuesta_ted_contra_1_0">Ted es mio ya que lo compraron mis padres, pero eso no me da el derecho a decidir ya que el ya tiene conciencia propia</string>
-    <string name="respuesta_ted_contra_1_1">Es mas persona que mucha gente quien es steven tyler, es una especie de moutro con cirugia plastica.</string>
-    <string name="respuesta_ted_contra_2_0">En verdad espero que a tus hijos les de gripe aviar </string>
-    <string name="respuesta_ted_contra_2_1">A nadie le caes bien… perdon.</string>
-    <string name="respuesta_ted_contra_2_2">A mi esposa, mas que a nada en el mundo, estamos casados y no me importa lo que diga.</string>
-    <string name="respuesta_ted_contra_2_3">Debe sentirse raro por tener un muñeco aquí en el estrado sin que un niño señale donde lo toco su tio?, jajaja … no?, en fin si soy capaz.</string>
+    <string name="respuesta_ted_favor_0_0">Ted es un peluche. Es un objeto y fue comprado.</string>
+    <string name="respuesta_ted_favor_1_0">Ted está hecho de esponja.</string>
+    <string name="respuesta_ted_favor_1_1">Ted no puede morir. No sigue un ciclo de nacimiento – muerte humano.</string>
+    <string name="respuesta_ted_favor_2_0">Ted fue fabricado por una empresa de juguetes. No nació. </string>
+    <string name="respuesta_ted_favor_2_1">Ted no puede reproducirse. La reproducción es una característica humana que Ted no tiene</string>
+    <string name="respuesta_ted_favor_2_2">Ted fue fabricado por una empresa de juguetes. No nació. Y por ende, no puede morir.</string>
+    <string name="respuesta_ted_favor_2_3">Su estatuto de vida de Ted se basa en razones inexplicables no humanas</string>
+    <string name="respuesta_ted_contra_0_0">Ted reconoce el amor</string>
+    <string name="respuesta_ted_contra_1_0">Ted puede establecer vínculos afectivos u amorosos</string>
+    <string name="respuesta_ted_contra_1_1">Ted tiene alma. El alma es un principio de autoconocimiento y sentimiento.</string>
+    <string name="respuesta_ted_contra_2_0">Ted ama a su esposa. </string>
+    <string name="respuesta_ted_contra_2_1">Ted tiene alma. El alma es un principio de autoconocimiento y sentimiento.</string>
+    <string name="respuesta_ted_contra_2_2">El auto conocimiento del alma demuestra el humanismo de Ted.</string>
+    <string name="respuesta_ted_contra_2_3">Ted puede aprender, razonar y tomar acciones.</string>
 
 
 
